@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<style>
+	 
+	</style>
+</head>
+<body>
+	
+    <div class="container">
+    	<div class="row">
+    		<div class="col-md-6">
+    			<div class="jumbotron">
+    				<form onsubmit="return sign()">
+    					<div class="form-group">
+    						<label for="user">Username</label>
+    						<input type="text" name="user" class="form-control" placeholder="Username" id="user" />
+    					</div>
+
+    					<div class="form-group">
+    						<label for="password">Password</label>
+    						<input type="password" name="password" class="form-control" placeholder="Password" id="password" />						
+    					</div>
+
+    					<div class="form-group">
+    						<label for="email">Email</label>
+    						<input type="email" name="email" class="form-control" placeholder="Email" id="email" />
+    					</div>
+
+    					<div class="form-group">
+    						<label for="tel">Phone</label>
+    						<input type="tel" name="phone" placeholder="Phone" class="form-control" id="phone" />    						
+    					</div>
+
+    					<div  id="result" ></div>   						
+    					
+    					<input type="submit" name="" value="SING IN" class="btn btn-success">				
+
+
+    				</form>
+    				
+    			</div>
+    		</div>
+
+    		<div class="col-md-6">
+    			<div class="jumbotron">
+    				<form onsubmit="">
+    					<div class="form-group">
+    						<label for="user">Username</label>
+    					<input type="email" name="email" class="form-control" placeholder="Email" id="myemail" />
+    					</div>
+    					<div class="form-group">
+    						<label for="user">Password</label>
+    					<input type="password" name="password" class="form-control" placeholder="Password" id="mypass" />
+    					</div>
+    					<input type="submit" name="" value="LOG IN" class="btn btn-info mt-3">
+    					
+    				</form>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+	<script src="js/bootstrap.js"></script>
+	<script src="js/sing.js"></script>
+</body>
+</html>
